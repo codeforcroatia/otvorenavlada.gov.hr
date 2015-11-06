@@ -1,0 +1,232 @@
+.subactivity {
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  background-color: #ffffcc;
+}
+
+.subactivity h3 {
+  margin: 0;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.record {
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+}
+
+.record h3 {
+  margin: 0;
+}
+
+.owners {
+  margin: 5px 0;
+}
+
+.take-it-on {
+  margin-top: -5px;
+}
+
+.data-source {
+  font-style: italic;
+}
+
+.footer {
+  border-top: solid 1px #ccc;
+  margin-top: 50px;
+  padding: 20px 0;
+}
+
+.gravatar {
+  margin-right: 10px;
+  display: inline;
+}
+
+/* bootstrap 3 helpers */
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+/* end */
+
+/* custom theme */
+
+header {
+  min-height:230px;
+    margin-bottom:5px;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+      position: static;
+  }
+
+  #sidebar.affix {
+      position: fixed;
+      top: 0;
+      width:18%;
+  }
+}
+
+.affix,.affix-top {
+   position:static;
+}
+
+/* theme */
+
+body {
+  color:#828282;
+}
+
+a,a:hover {
+  color:#d71920;
+  text-decoration: none;
+}
+
+.highlight-bk {
+  background-color:#ff3333;
+    padding:1px;
+    width:100%;
+}
+
+.highlight {
+  color:#d71920;
+}
+
+h3.highlight  {
+  padding-top:13px;
+    padding-bottom:14px;
+    border-bottom:2px solid #ff3333;
+}
+
+.redbar {
+  background-color:#d71920;
+    font-color:#fff;
+    border:0;
+    border-radius:0;
+    text-decoration:none;
+}
+.redbar > a:hover {
+  color:#fff;
+  text-decoration:underline;
+}
+.redbar-nav > li > a {
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:15px;
+}
+.redbar-nav > li > a:hover, .redbar-nav > li > a:focus {
+    color:#d71920;
+    text-decoration:underline;
+}
+.redbar-nav > li:last-child > a {
+}
+.redbar-nav > .active > a, .redbar-nav > .active > a:hover, .redbar-nav > .active > a:focus {
+    color: #fff;
+    text-decoration:underline;
+}
+.redbar-nav > .open > a, .redbar-nav > .open > a:hover, .redbar-nav > .open > a:focus {
+  color: #f0f0f0;
+  background-color:transparent;
+    opacity:.9;
+}
+.red .open > a {
+    border-color:#fff;
+    border-width:0;
+}
+.redbar-toggle {
+  color:#fff;
+    border-width:0;
+}
+.redbar-toggle:hover {
+  background-color:#fff;
+}
+
+.navbar {
+  background-color:#eee;
+    color:#ffffff;
+    border:0;
+    border-radius:0;
+}
+.navbar > a:hover {
+  color:#ff3333;
+  text-decoration:underline;
+}
+.navbar-nav > li > a {
+    color:#424242;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:15px;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color:#666666;
+    text-decoration:underline;
+}
+.navbar-nav > li:last-child > a {
+}
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    text-decoration:underline;
+}
+.navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {
+  color: #f0f0f0;
+  background-color:transparent;
+    opacity:.9;
+}
+
+.nav .open > a {
+    border-color:#777777;
+    border-width:0;
+}
+
+.accordion-group {
+  border-width:0;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+
+.accordion-heading .accordion-toggle, .accordion-inner, .nav-stacked li > a {
+  padding-left:1px;
+}
+
+.caret {
+  color:#fff;
+}
+
+.navbar-toggle {
+  color:#fff;
+    border-width:0;
+}
+
+.navbar-toggle:hover {
+  background-color:#fff;
+}
+
+.panel {
+  padding-left:27px;
+    padding-right:27px;
+}
+
+/* end theme */
+
+/* Lucijan updates */
+.redbar .navbar-nav li > a {
+  color: #fff;
+}
+
+.redbar .navbar-nav li > a:hover,
+.redbar .navbar-nav li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
